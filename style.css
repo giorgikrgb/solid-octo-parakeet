@@ -6,7 +6,7 @@
 
 body {
 	font-family: Arial, sans-serif;
-	background: #f4d1d1;
+	background: #fbf7f7;
 	color: #0d0f10;
 }
 
@@ -21,6 +21,7 @@ header h2 {
 	font-weight: 300;
 	font-size: 36px;
 	color: #4D4F62;
+    text-align: center;
 }
 
 header h1 {
