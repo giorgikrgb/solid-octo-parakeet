@@ -15,8 +15,10 @@ body {
 	margin: 80px auto;
 	text-align: center;
 }
-section{
-    flex-direction: row
+section {
+	display: flex;
+	flex-direction: row;
+    justify-content: center;
 }
 
 header h2 {
@@ -43,31 +45,30 @@ header p {
 	text-align: center;
 	opacity: 0.7;
 }
-.cards{ width: 1110px;
-    height: 250px;
-    top: 312px;
-    left: 165px;
-    angle: 0 deg;
-    opacity: 1;
+.cards {
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+	margin-top: 40px;
 }
-.card supervior{width: 350px;
-height: 250px;
-top: 312px;
-left: 165px;
-angle: 0 deg;
-opacity: 1;
 
+.card {
+	width: 300px;
+	padding: 20px;
+	background: white;
+	border-radius: 10px;
+	box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
-.card tem{width: 350px;
-height: 250px;
-top: 312px;
-left: 545px;
-angle: 0 deg;
-opacity: 1;
+
+
+.card.supervisor {
+	border-top: 4px solid cyan;
 }
-.card calculator{width: 350px;
-height: 250px;
-top: 312px;
-left: 925px;
-angle: 0 deg;
-opacity: 1;
+
+.card.team {
+	border-top: 4px solid red;
+}
+
+.card.calculator {
+	border-top: 4px solid blue;
+}
