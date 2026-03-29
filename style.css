@@ -5,7 +5,7 @@ box-sizing: border-box;
 
 body {
 	font-family:arial;
-	background: #FAFAFA;
+	background: #f4d1d1;
 	color: #0d0f10;
 }
 container {width: 540;
@@ -16,12 +16,20 @@ angle: 0 deg;
 opacity: 1;
 
 	}
-header h2{
-	color: #4D4F62;
-	font-weight: 300;
-	font-size: 20px;
-	text-align: center;
+header h2{width: 444;
+height: 54;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 300;
+font-size: 36px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0.25px;
+color: #4D4F62;
+
 }
+	
 header h1 {
 	color: #4D4F62;
 	font: poppins;
