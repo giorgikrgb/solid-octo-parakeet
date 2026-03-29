@@ -40,11 +40,31 @@ header p {
 	text-align: center;
 	opacity: 0.7;
 }
-cards{
-    width: 1110px
+.cards{ width: 1110px;
     height: 250px;
     top: 312px;
     left: 165px;
     angle: 0 deg;
     opacity: 1;
 }
+.card supervior{width: 350px;
+height: 250px;
+top: 312px;
+left: 165px;
+angle: 0 deg;
+opacity: 1;
+
+}
+.card tem{width: 350px;
+height: 250px;
+top: 312px;
+left: 545px;
+angle: 0 deg;
+opacity: 1;
+}
+.card calculator{width: 350px;
+height: 250px;
+top: 312px;
+left: 925px;
+angle: 0 deg;
+opacity: 1;
