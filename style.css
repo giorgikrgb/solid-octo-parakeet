@@ -1,0 +1,48 @@
+{margin: 0;
+	padding: 0;
+box-sizing: border-box;
+}
+
+body {
+	font-family:arial;
+	background: #FAFAFA;
+	color: #0d0f10;
+}
+container {width: 540;
+height: 168;
+top: 80px;
+left: 450px;
+angle: 0 deg;
+opacity: 1;
+
+	}
+header h2{
+	color: #4D4F62;
+	font-weight: 300;
+	font-size: 20px;
+	text-align: center;
+}
+header h1 {
+	color: #4D4F62;
+	font: poppins;
+	font-weight: 600;
+	size: 36px;
+	letter-spacing: 0,25;
+	Horizontal alignment:center;
+	text-align: center;
+
+}
+header p {width: 540;
+height: 50;
+top: 118px;
+angle: 0 deg;
+opacity: 0.5;
+font-family: Poppins;
+font-weight: 400;
+font-size: 15px;
+leading-trim: NONE;
+line-height: 25px;
+letter-spacing: 0.1px;
+text-align: center;
+
+}
