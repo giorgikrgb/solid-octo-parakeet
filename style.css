@@ -55,11 +55,11 @@ header p {
 	margin-top: 40px;
 }
 .card img{
+	position: relative;
     width: 64px;
 	height: 64px;
-	top: 154px;
-	left: 254px;
-	angle: 0 deg;
+	bottom: 154px;
+	right: 254px;
 	opacity: 1;
 }
 
