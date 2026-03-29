@@ -34,15 +34,17 @@ header h1 {
 
 header p {
 	font-family: 'Poppins', sans-serif;
-	font-size: 15px;
+	font-size: 15px; 
 	line-height: 25px;
 	letter-spacing: 0.1px;
 	text-align: center;
 	opacity: 0.7;
 }
-cards{width: 1110px
-height: 250x;
-top: 312px;
-left: 165px;
-angle: 0 deg;
-opacity: 1;
+cards{
+    width: 1110px
+    height: 250px;
+    top: 312px;
+    left: 165px;
+    angle: 0 deg;
+    opacity: 1;
+}
