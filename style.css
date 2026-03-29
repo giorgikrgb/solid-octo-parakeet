@@ -54,8 +54,8 @@ header p {
 	justify-content: center;
 	margin-top: 40px;
 }
-img {
-	width: 64px;
+.card img{
+    width: 64px;
 	height: 64px;
 	top: 154px;
 	left: 254px;
@@ -64,6 +64,7 @@ img {
 }
 
 
+	
 .card {
 	width: 300px;
 	padding: 20px;
@@ -83,4 +84,12 @@ img {
 
 .card.calculator {
 	border-top: 4px solid blue;
+}
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-12px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
 }
